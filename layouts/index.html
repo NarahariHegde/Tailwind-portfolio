@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../layouts/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"
+      integrity="sha512-u3fPA7V8qQmhBPNT5quvaXVa1mnnLSXUep5PS1qo5NRzHwG19aHmNJnj1Q8hpA/nBWZtZD4r4AX6YOt5ynLN2g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body class="scroll-smooth">
+    <section class="main-body scroll-auto bg-gray-50">
+      <section class="navbar">
+        <header class="text-gray-400 body-font bg-gray-50 text-lg">
+          <div
+            class="flex flex-wrap p-5 flex-col md:flex-row md:justify-evenly md:mx-48 items-center"
+          >
+            <a class="flex title-font font-medium items-center mb-4 md:mb-0">
+              <span class="ml-3 text-xl font-bold">Narahari Hegde</span>
+            </a>
+            <nav
+              class="md:ml-auto ml-5 flex flex-wrap items-center text-lg justify-center"
+            >
+              <a
+                class="mr-5 hover:text-gray-900 hover:underline hover:font-medium hover:cursor-pointer font-semibold text-lg"
+                href="#about"
+                >About</a
+              >
+              <a
+                href="#skill"
+                class="mr-5 hover:text-gray-900 hover:underline hover:font-medium hover:cursor-pointer font-semibold text-lg"
+                >Skills</a
+              >
+
+              <a
+                href="#education"
+                class="mr-5 hover:text-gray-900 hover:underline hover:font-medium hover:cursor-pointer font-semibold text-lg"
+                >Education</a
+              >
+              <a
+                href="#experience"
+                class="mr-5 hover:text-gray-900 hover:underline hover:font-medium hover:cursor-pointer font-semibold text-lg"
+                >Experience</a
+              >
+
+              <a
+                href="#project"
+                class="mr-5 hover:text-gray-900 hover:underline hover:font-medium hover:cursor-pointer font-semibold text-lg"
+                >Projects</a
+              >
+              <a
+                href="#contact"
+                class="mr-5 hover:text-gray-900 hover:underline hover:font-medium hover:cursor-pointer font-semibold text-lg"
+                >contact me</a
+              >
+            </nav>
+          </div>
+        </header>
+      </section>
+      <section class="about-me mt-5" id="about">
+        <div class="about-heading">
+          <div class="flex justify-center mt-10">
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 mr-3"></span>
+            <h2 class="font-bold text-xl">About Me</h2>
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 ml-3"></span>
+          </div>
+        </div>
+        <div class="main-about grid grid-cols-2 items-center">
+          <div class="left-about ml-[30%] leading-tight">
+            <h1 class="font-bold text-2xl mt-3">Hi There,I'm Narahari Hegde</h1>
+            <p class="font-semibold mt-3 mb-3">Junior developer at EG INDIA</p>
+            <p class="font-medium">
+              Aspiring and dedicated Junior Software Developer with a strong
+              foundation in full-stack development, eager to contribute to
+              innovative projects and grow within a dynamic team environment.
+            </p>
+            <div class="flex mt-10 gap-15">
+              <button
+                class="w-[50%] text-center inline-flex justify-around mt-1 text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                <span>Know more</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </button>
+              <button
+                class="w-[50%] ml-10 inline-flex mt-1 justify-around text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg"
+              >
+                <span> Contact Me</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="social mt-10 flex justify-center gap-x-10 text-2xl">
+              <span><i class="fa-brands fa-github"></i></span>
+              <span><i class="fa-brands fa-linkedin"></i></span>
+              <span><i class="fa-brands fa-whatsapp"></i></span>
+              <span><i class="fa-brands fa-instagram"></i></span>
+              <span><i class="fa-brands fa-x-twitter"></i></span>
+              <span><i class="fa-brands fa-facebook"></i></span>
+            </div>
+          </div>
+          <div class="right-about">
+            <img src="./img/about1.png" alt="about me" class="w-3/4 h-3/4" />
+          </div>
+        </div>
+      </section>
+      <section class="skills mt-5 mb-10" id="skill">
+        <div class="about-heading mt-5">
+          <div class="flex justify-center mt-10">
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 mr-3"></span>
+            <h2 class="font-bold text-xl">Skills</h2>
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 ml-3"></span>
+          </div>
+        </div>
+        <div
+          class="skill-cards grid grid-cols-5 place-items-center mt-5 gap-y-5"
+        >
+          <div
+            class="card w-24 h-24 rounded-xl shadow-xl bg-white"
+            data-aos="fade-down-right"
+          >
+            <img src="./img/react.png" alt="img" class="w-full h-full" />
+          </div>
+          <div
+            class="card w-24 h-24 rounded-xl shadow-xl bg-white"
+            data-aos="fade-right"
+          >
+            <img src="./img/express.jpg" alt="img" class="w-full h-full" />
+          </div>
+          <div
+            class="card w-24 h-24 rounded-xl shadow-xl bg-white"
+            data-aos="zoom-in"
+          >
+            <img src="./img/node.jpg" alt="img" class="w-full h-full" />
+          </div>
+          <div
+            class="card w-24 h-24 rounded-xl shadow-xl bg-white"
+            data-aos="fade-left"
+          >
+            <img src="./img/mongo.jpg" alt="img" class="w-full h-full" />
+          </div>
+          <div
+            class="card w-24 h-24 rounded-xl shadow-xl bg-white"
+            data-aos="fade-down-left"
+          >
+            <img src="./img/html.png" alt="img" class="w-full h-full" />
+          </div>
+          <div
+            class="card w-24 h-24 rounded-xl shadow-xl bg-white"
+            data-aos="fade-up-right"
+          >
+            <img src="./img/css.png" alt="img" class="w-full h-full" />
+          </div>
+          <div
+            class="card w-24 h-24 rounded-xl shadow-xl bg-white"
+            data-aos="fade-right"
+          >
+            <img src="./img/java.png" alt="img" class="w-full h-full" />
+          </div>
+          <div
+            class="card w-24 h-24 rounded-xl shadow-xl bg-white"
+            data-aos="zoom-in"
+          >
+            <img src="./img/js.jpg" alt="img" class="w-full h-full" />
+          </div>
+          <div
+            class="card w-24 h-24 rounded-xl shadow-xl bg-white"
+            data-aos="fade-left"
+          >
+            <img src="./img/cpp.png" alt="img" class="w-full h-full" />
+          </div>
+          <div
+            class="card w-24 h-24 rounded-xl shadow-xl bg-white"
+            data-aos="fade-up-left"
+          >
+            <img src="./img/mysql.jpg" alt="img" class="w-full h-full" />
+          </div>
+        </div>
+      </section>
+      <section class="educaion mt-10" id="education">
+        <div class="about-heading">
+          <div class="flex justify-center">
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 mr-3"></span>
+            <h2 class="font-bold text-xl">Education</h2>
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 ml-3"></span>
+          </div>
+        </div>
+        <div class="edu grid grid-cols-2 mt-20">
+          <div class="edu-left">
+            <img
+              src="./img/education.png"
+              alt="eduaction"
+              class="w-8/12 h-[80%] mx-auto"
+            />
+          </div>
+          <div class="edu-right flex flex-col gap-10">
+            <div
+              class="card w-8/12 h-32 shadow-md rounded-md flex p-2 justify-around bg-white"
+              data-aos="fade-down"
+            >
+              <img
+                src="./img/yit.jpg"
+                alt="yit"
+                class="rounded-full w-10 h-10 mt-3"
+              />
+              <div class="ml-5">
+                <p class="text-gray-500">July 2019 - July 2023</p>
+                <p class="font-semibold">
+                  Bachelor of Engineering(ISE) - 8.91 CGPA
+                </p>
+                <p class="text-gray-500">Yenepoya Institute Of Technology</p>
+              </div>
+            </div>
+            <div
+              class="card w-8/12 h-30 shadow-md rounded-md flex p-2 bg-white"
+              data-aos="zoom-in"
+            >
+              <img
+                src="./img/nitte.jpg"
+                alt="nitte"
+                class="w-10 h-10 rounded-full ml-10"
+              />
+              <div class="ml-[20%]">
+                <p class="text-gray-500">march 2017 - Feb 2019</p>
+                <p class="font-semibold">Pre-University(PCMB) - 91%</p>
+                <p class="text-gray-500">DR N S A M Pu college Nitte</p>
+              </div>
+            </div>
+            <div
+              class="card w-8/12 h-30 shadow-md rounded-md flex p-2 justify-around bg-white"
+              data-aos="fade-up"
+            >
+              <img
+                src="./img/hs.jpg"
+                alt="hs"
+                class="w-10 h-10 mt-3 rounded-full"
+              />
+              <div class="ml-5">
+                <p class="text-gray-500">March 2014 - March 2017</p>
+                <p class="font-semibold">Seconadry Education - 90%</p>
+                <p class="text-gray-500">
+                  K S P M Govt high school Pervaje Karkala
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="experience mt-2 mb-10" id="experience">
+        <div class="about-heading mb-5">
+          <div class="flex justify-center">
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 mr-3"></span>
+            <h2 class="font-bold text-xl">Experience</h2>
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 ml-3"></span>
+          </div>
+        </div>
+        <div class="exp-main grid grid-cols-3 place-items-center mt-10">
+          <div
+            class="card w-96 rounded-sm grid gap-3 shadow-xl border-gray-400 p-10 bg-white"
+            data-aos="fade-right"
+          >
+            <div class="header rounded-md shadow-sm border-gray-400">
+              <img src="./img/developer.png" alt="exp1" class="w-full h-56" />
+            </div>
+            <div class="body rounded-md shadow-sm border-gray-900">
+              <p class="font-semibold text-center text-xl">
+                Junior Software developer
+              </p>
+              <p class="font-bold text-center">EG INDIA</p>
+              <p>Skills: Angular,C#,JavaScript,Java,.Net,PostgreSql</p>
+            </div>
+          </div>
+          <div
+            class="card w-96 rounded-sm grid gap-3 shadow-xl p-10 bg-white"
+            data-aos="zoom-in"
+          >
+            <div class="header rounded-md shadow-sm border-gray-400">
+              <img src="./img/Freelancer.png" alt="exp1" class="w-full h-56" />
+            </div>
+            <div class="body rounded-md shadow-sm border-gray-900">
+              <p class="font-semibold text-center text-xl">
+                Freelance developer
+              </p>
+              <p class="font-bold text-center">REMOTE</p>
+
+              <p>
+                Skills:React,JavaScript,Java,Express Js,Node Js,MySql,mongoDb
+              </p>
+            </div>
+          </div>
+          <div
+            class="card w-96 rounded-sm grid gap-3 shadow-xl p-10 bg-white"
+            data-aos="fade-left"
+          >
+            <div class="header rounded-md shadow-sm border-gray-400">
+              <img src="./img/Internship.png" alt="exp1" class="w-full h-56" />
+            </div>
+            <div class="body rounded-md shadow-sm border-gray-900">
+              <p class="font-semibold text-center text-xl">Internship</p>
+              <p class="font-bold text-center">IMPELSYS PVT LTD</p>
+
+              <p>Skills: JavaScript,Java,Sql,Servlets,DAO,MVC,Jsp,JDBC</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="projects mt-10" id="project">
+        <div class="about-heading mb-5">
+          <div class="flex justify-center">
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 mr-3"></span>
+            <h2 class="font-bold text-xl">Projects</h2>
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 ml-3"></span>
+          </div>
+        </div>
+        <div
+          class="main-project grid grid-cols-3 place-items-center gap-x-5 gap-y-10 mb-10"
+        >
+          <div
+            class="card w-96 rounded-lg shadow-xl p-10 bg-white"
+            data-aos="fade-down-right"
+          >
+            <div class="card-header">
+              <img
+                src="./img/Order food-pana.png"
+                alt="project"
+                class="w-full h-56"
+              />
+            </div>
+            <div class="card-body">
+              <h1 class="text-center font-bold">Food delivery App</h1>
+              <p class="text-gray">
+                A Dynamic website ease the process of ordering Food items.
+              </p>
+            </div>
+            <div class="flex mt-10 gap-15">
+              <button
+                class="w-[60%] text-center inline-flex justify-around mt-1 text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                <span>Demo</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                  />
+                </svg>
+              </button>
+              <button
+                class="w-[60%] ml-10 inline-flex mt-1 justify-around text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg"
+              >
+                <span> Download</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="card w-96 rounded-lg shadow-xl p-10 bg-white"
+            data-aos="zoom-in"
+          >
+            <div class="card-header">
+              <img
+                src="./img/Online Doctor-amico.png"
+                alt="project"
+                class="w-full h-56"
+              />
+            </div>
+            <div class="card-body">
+              <h1 class="text-center font-bold">Doctor Appointment System</h1>
+              <p class="text-gray">
+                A Dynamic website ease the process of Taking appointments.
+              </p>
+            </div>
+            <div class="flex mt-10 gap-15">
+              <button
+                class="w-[60%] text-center inline-flex justify-around mt-1 text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                <span>Demo</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                  />
+                </svg>
+              </button>
+              <button
+                class="w-[60%] ml-10 inline-flex mt-1 justify-around text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg"
+              >
+                <span> Download</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="card w-96 rounded-lg shadow-xl p-10 bg-white"
+            data-aos="fade-down-left"
+          >
+            <div class="card-header">
+              <img
+                src="./img/Cricket-pana.png"
+                alt="project"
+                class="w-full h-56"
+              />
+            </div>
+            <div class="card-body">
+              <h1 class="text-center font-bold">Live Cricket Scorer</h1>
+              <p class="text-gray">
+                A Dynamic website shows live cricket scores based on API data.
+              </p>
+            </div>
+            <div class="flex mt-10 gap-15">
+              <button
+                class="w-[60%] text-center inline-flex justify-around mt-1 text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                <span>Demo</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                  />
+                </svg>
+              </button>
+              <button
+                class="w-[60%] ml-10 inline-flex mt-1 justify-around text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg"
+              >
+                <span> Download</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="card w-96 rounded-lg shadow-xl p-10 bg-white"
+            data-aos="fade-up-right"
+          >
+            <div class="card-header">
+              <img
+                src="./img/Working-amico.png"
+                alt="project"
+                class="w-full h-56"
+              />
+            </div>
+            <div class="card-body">
+              <h1 class="text-center font-bold">Course scheduling system</h1>
+              <p class="text-gray">
+                A Dynamic website to schedule the class and assign courses to
+                respective candidates.
+              </p>
+            </div>
+            <div class="flex mt-10 gap-15">
+              <button
+                class="w-[60%] text-center inline-flex justify-around mt-1 text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                <span>Demo</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                  />
+                </svg>
+              </button>
+              <button
+                class="w-[60%] ml-10 inline-flex mt-1 justify-around text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg"
+              >
+                <span> Download</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="card w-96 rounded-lg shadow-xl p-10 bg-white"
+            data-aos="zoom-in"
+          >
+            <div class="card-header">
+              <img
+                src="./img/driving school-pana.png"
+                alt="project"
+                class="w-full h-56"
+              />
+            </div>
+            <div class="card-body">
+              <h1 class="text-center font-bold">Driving School System</h1>
+              <p class="text-gray">
+                A Dynamic website Manage Driving School details effectively and
+                efficiently.
+              </p>
+            </div>
+            <div class="flex mt-10 gap-15">
+              <button
+                class="w-[60%] text-center inline-flex justify-around mt-1 text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                <span>Demo</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                  />
+                </svg>
+              </button>
+              <button
+                class="w-[60%] ml-10 inline-flex mt-1 justify-around text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg"
+              >
+                <span> Download</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div
+            class="card w-96 rounded-lg shadow-xl p-10 bg-white"
+            data-aos="fade-up-left"
+          >
+            <div class="card-header">
+              <img
+                src="./img/Online test-amico.png"
+                alt="project"
+                class="w-full h-56"
+              />
+            </div>
+            <div class="card-body">
+              <h1 class="text-center font-bold">Quiz Site</h1>
+              <p class="text-gray">
+                A Dynamic website which is designed to arrange quiz.
+              </p>
+            </div>
+            <div class="flex mt-10 gap-15">
+              <button
+                class="w-[60%] text-center inline-flex justify-around mt-1 text-white bg-purple-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+              >
+                <span>Demo</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"
+                  />
+                </svg>
+              </button>
+              <button
+                class="w-[60%] ml-10 inline-flex mt-1 justify-around text-white bg-gray-700 border-0 py-2 px-6 focus:outline-none hover:bg-gray-800 rounded text-lg"
+              >
+                <span> Download</span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="size-6"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contatus" id="contact">
+        <div class="about-heading mb-5">
+          <div class="flex justify-center">
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 mr-3"></span>
+            <h2 class="font-bold text-xl">Lets Connect</h2>
+            <span class="w-[15rem] bg-gray-400 h-[1px] mt-5 ml-3"></span>
+          </div>
+        </div>
+        <div class="contact mt-5 grid grid-cols-2 mb-10 bg-white">
+          <div class="contact-left ml-36">
+            <img
+              src="./img/Contact us-amico.png"
+              alt="contact"
+              class="w-[80%] h-[80%]"
+            />
+          </div>
+          <div class="conatct-right -ml-96">
+            <form class="max-w-md mx-auto mt-5">
+              <div class="mb-5">
+                <label
+                  for="name"
+                  class="block mb-2 text-sm font-medium text-gray-900"
+                  >Your Name</label
+                >
+                <input
+                  type="text"
+                  id="name"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                  placeholder="enter your name"
+                  required
+                />
+              </div>
+              <div class="mb-5">
+                <label
+                  for="email"
+                  class="block mb-2 text-sm font-medium text-gray-900"
+                  >Your email</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="enter your email"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                  required
+                />
+              </div>
+              <div class="mb-5">
+                <label
+                  for="repeat-password"
+                  class="block mb-2 text-sm font-medium text-gray-900"
+                  >Message</label
+                >
+                <input
+                  type="text"
+                  id="repeat-password"
+                  placeholder="enter your message"
+                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                  required
+                />
+              </div>
+
+              <button
+                type="submit"
+                class="w-full text-white bg-blue-400 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              >
+                Notify me
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="footer">
+        <footer class="bg-gray-500 text-white p-4 text-center">
+          <p>&copy; 2024 Narahari Hegde. All Rights Reserved.</p>
+        </footer>
+      </section>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: "120",
+        duration: "500",
+        delay: "700",
+      });
+    </script>
+  </body>
+</html>
